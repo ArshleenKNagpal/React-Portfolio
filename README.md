@@ -1,70 +1,120 @@
-# Getting Started with Create React App
+# React Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Project Description
 
-## Available Scripts
+This application is a place nto show off my projects while I am applying for jobs or working as a freelancer but also to share my work with other developers and collaborate on projects.
 
-In the project directory, you can run:
+My portfolio uses React. 
 
-### `npm start`
+## User Story
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+```md
+AS AN employer looking for candidates with experience building single-page applications
+I WANT to view a potential employee's deployed React portfolio of work samples
+SO THAT I can assess whether they're a good candidate for an open position
+```
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Mock-Up
 
-### `npm run build`
+The following animation shows the web application's appearance and functionality:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![User clicks through About Me, Portfolio, Resume, and Contact sections on the webpage and enters information on Contact page.](./Assets/20-react-homework-demo-01.gif)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Getting Started
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+You’ll use `create-react-app` to build your portfolio, which will include the following:
 
-### `npm run eject`
+* A single `Header` component that appears on multiple pages
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+* A single `Navigation` component within the header that will be used to conditionally render the different sections of your portfolio
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+* A single `Project` component that will be used multiple times in the Portfolio section
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+* A single `Footer` component that appears on multiple pages
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+**Note:** Because this application doesn’t include a back end or connect to an API, the contact form doesn't need to save this information right now. You'll add back-end functionality in the next few weeks. In the meantime, consider including your email address and phone number on the Contact page.
 
-## Learn More
+### Projects
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+For each project that is featured in your portfolio, include the following:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+* An image of the deployed application (either a short animated GIF or screenshot)
 
-### Code Splitting
+* The title of the project
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+* A link to the deployed application
 
-### Analyzing the Bundle Size
+* A link to the corresponding GitHub repository
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Design
 
-### Making a Progressive Web App
+As with the previous portfolio homework, remember that "good" design is subjective; however, your site should look polished. Here are a few guidelines on what that means:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+* Use mobile-first design.
 
-### Advanced Configuration
+* Choose a color palette that distinguishes your site from the default Bootstrap theme and unstyled HTML sites. Refer to resources like [Coolors](https://coolors.co/) or another color scheme generator to help you create something that will stand out.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+* Ensure that the font size is large enough to read and that the colors don't cause eye strain.
 
-### Deployment
+* Consider using animations and React component libraries. Note that this will not affect your grade, but it might impact how potential employers gauge your knowledge.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Grading Requirements
 
-### `npm run build` fails to minify
+This homework is graded based on the following criteria:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Technical Acceptance Criteria: 40%
+
+* Satisfies all of the preceding acceptance criteria plus the following:
+
+    * Application must use React to render content.
+
+    * Application has a single `Header` component that appears on multiple pages, with a `Navigation` component within it that’s used to conditionally render About Me, Portfolio, Contact, and Resume sections.
+
+    * Application has a single `Project` component that’s used multiple times in the Portfolio section.
+
+    * Application has a single `Footer` component that appears on multiple pages.
+
+    * Application must be deployed to GitHub Pages.
+
+### Deployment: 32%
+
+* Application deployed at live URL.
+
+* Application loads with no errors.
+
+* Application GitHub URL submitted.
+
+* GitHub repository contains application code.
+
+### Application Quality: 15%
+
+* User experience is intuitive and easy to navigate.
+
+* User interface style is clean and polished.
+
+* Application uses a color scheme other than the default Bootstrap color palette.
+
+### Repository Quality: 13%
+
+* Repository has a unique name.
+
+* Repository follows best practices for file structure and naming conventions.
+
+* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
+
+* Repository contains multiple descriptive commit messages.
+
+* Repository contains high-quality README file with description, screenshot, and link to deployed application.
+
+## Review
+
+You are required to submit BOTH of the following for review:
+
+* The URL of the functional, deployed application.
+
+* The URL of the GitHub repository, with a unique name and a README that describes the project.
+
+- - -
+© 2021 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.

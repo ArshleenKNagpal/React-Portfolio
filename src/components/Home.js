@@ -142,40 +142,7 @@ function Home() {
     <div class="container">Please feel free to contact me on: arshleenknagpal@gmail.com</div>
     <div class="container">You can also fill out the form and I can contact you</div>
 
-    <section>
-          <h2>Social Media</h2>
-          <blockquote class="blockquote text-center">
-
-          <SocialMediaButtons
-  links={
-    [
-      "https://www.facebook.com/arshleenkapur",
-      "https://twitter.com/ArshleenKapur",
-      "https://www.linkedin.com/in/arshleen-nagpal/",
-      "https://github.com/ArshleenKNagpal"
-    ]
-  }
-  buttonStyle={{
-    width: '80px',
-    height: '80px',
-    border: '2px solid #000000',
-    margin: '5px',
-    backgroundColor: '#919191',
-  }}
-  iconStyle={{
-    color: '#ffffff',
-  }}
-/>
-
-
-          
-          </blockquote>
-        </section>
-
-
-    </section>
-
-        <aside id="sidebar">
+    <aside id="sidebar">
           <div className="dark">
             <h3>Contact Me</h3>
             <form className="contactForm">
@@ -200,11 +167,6 @@ function Home() {
                 <input type="number" placeholder="Phone Number" />
               </div>
               <div>
-                <label>Address</label>
-                <br />
-                <textarea placeholder="address"></textarea>
-              </div>
-              <div>
                 <label>Message</label>
                 <br />
                 <textarea placeholder="Message"></textarea>
@@ -215,6 +177,50 @@ function Home() {
             </form>
           </div>
         </aside>
+
+
+    <section>
+          <h2>Social Media</h2>
+          <blockquote class="blockquote text-center">
+
+          <SocialMediaButtons
+  links={
+    [
+      "https://www.facebook.com/arshleenkapur",
+      "https://twitter.com/ArshleenKapur",
+      "https://www.linkedin.com/in/arshleen-nagpal/",
+      "https://github.com/ArshleenKNagpal"
+    ]
+  }
+  buttonStyle={{
+    width: '80px',
+    height: '80px',
+    border: '2px solid #000000',
+    margin: '5px',
+    backgroundColor: '#919191',
+  }}
+  iconStyle={{
+    color: '#ffffff',
+  }}
+  
+/>
+<section>
+    <div class="box">
+    <h3>Resume</h3>
+          <a href = "images/resume.png">
+            <img src="images/resume.png" width="200" height="200" /></a>
+            <p>Please download my resume here</p>
+          </div>
+</section>
+
+          
+          </blockquote>
+        </section>
+
+
+    </section>
+
+        
       </div>
     </section>
 
