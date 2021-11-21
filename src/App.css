@@ -1,3 +1,11 @@
+:root {
+  --white: #ffffff;
+  --black: #000000;
+  --whiteish: #afafaf;  
+  --grey: #747474;
+}
+
+
 h1, h2, h3, h4, h5, h6, p, a, ul, ol, li, small
 {
     margin: 0;
@@ -51,10 +59,10 @@ nav ul li a {
 
 header{
 
-    color: #ffffff;
+    color: var(--white);
     padding-top: 30px;
     min-height: 70px;
-    border-bottom: #e8491d 3px solid;
+    border-bottom: var(--whiteish) 3px solid;
 }
 
 header nav ul li a,
@@ -65,21 +73,21 @@ header nav ul li a:active{
 
     text-align: center;
     padding: 8px 0;
-    border-bottom: #e8491d 3px solid;
-    background:#35424a;
+    border-bottom: var(--grey) 3px solid;
+    background:var(--black);
     font-weight:bold;
     font-size:15px;
     padding:10px;
     width:100%;
     display:block;
-    color:white
+    color: var(--white)
 }
 
 footer {
     padding: 20px;
     margin-top: 20px;
-    border-top: #e8491d 3px solid;
-    background-color: lightgray;
+    border-top: var(--grey) 3px solid;
+    background-color: var(--whiteish);
     text-align: right;
     
 }
@@ -92,7 +100,7 @@ footer nav ul li a:active{
     text-decoration: none;
     text-align: center;
     padding: 5px 0;
-    color:rgb(49, 46, 46);
+    color:var(--grey);
     display: block;
     font-weight:bold;
     font-size:15px;
@@ -103,8 +111,8 @@ aside{
     width:200px;
     float:right;
     text-align:center;
-    border-bottom:#e8491d solid 5px;
-    background:lightgray; 
+    border-bottom:var(--grey) solid 5px;
+    background:var(--whiteish); 
     margin-left:10px;
 }
 
@@ -153,7 +161,7 @@ article#main-col{
     padding:30px;
     border-radius:10px;
     margin-bottom:5px;
-    background:lightgray; 
+    background:var(--whiteish); 
  
   }
 
@@ -162,7 +170,7 @@ aside#sidebar{
     float:right;
     width:30%;
     margin-top:10px;
-    background:#e8491d;
+    background:var(--grey);
   }
   
   aside#sidebar .contactForm input, aside#sidebar .contactForm textarea{
@@ -172,7 +180,7 @@ aside#sidebar{
 
 #subscribe{
     padding:15px;
-    background:lightgray
+    background: var(--whiteish)
   }
   
   #subscribe h1{
@@ -192,8 +200,8 @@ aside#sidebar{
 
   .dark {
     padding: 15px;
-    background: #35424a;
-    color: #ffffff;
+    background: var(--black);
+    color: var(--white);
     margin-top: 10px;
     margin-bottom: 10px;
     text-align:left;
@@ -201,11 +209,11 @@ aside#sidebar{
 
   .button {
     height: 38px;
-    background: #e8491d;
+    background: var(--grey);
     border: 0;
     padding-left: 20px;
     padding-right: 20px;
-    color: #ffffff;
+    color: var(--white);
 }
 
 table {
@@ -216,14 +224,14 @@ table {
   }
   
   td, th {
-    border: 1px solid #e8491d;
+    border: 1px solid var(--grey);
     text-align: left;
     padding: 8px;
     border-style: dotted;
   }
   
   tr:nth-child(even) {
-    background-color: #dddddd;
+    background-color: var(--white);
   }
 
   #skills aside {
@@ -233,7 +241,7 @@ table {
     margin-left: 15px;
     float: right;
     font-style: italic;
-    background-color: lightgray;
+    background-color: var(--whiteish);
   }
 
   .flex-container {
@@ -248,13 +256,13 @@ table {
     margin-right:40px;
     padding:10px;
     text-align: center;
-    border-bottom:#e8491d solid 5px;
+    border-bottom:var(--greys) solid 5px;
   }
 
   .mainHeading{
     font-weight: bold;
     text-transform: uppercase;
-    background: lightgray;
+    background: var(--whiteish);
     padding: 10px;
   }
 
@@ -284,7 +292,7 @@ table {
   #aboutAside li{
 
     list-style: none;
-    color:#fff
+    color: var(--white)
   }
 
 @media(max-width: 768px){
@@ -304,7 +312,7 @@ table {
     header{
       padding-bottom:20px;
     }
-    
+    /* e8491d */
     header nav ul li a,
     header nav ul li a:focus,
     header nav ul li a:visited,
@@ -313,8 +321,8 @@ table {
         text-decoration: none;
         text-align: left;
         padding: 8px 0;
-        border-bottom: #e8491d 3px solid;
-        background:#35424a;
+        border-bottom: #e8e51d 3px solid;
+        background:#0a7031;
         font-weight:bold;
         font-size:15px;
         padding:10px;

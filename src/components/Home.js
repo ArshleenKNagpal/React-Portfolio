@@ -62,7 +62,7 @@ function Home() {
     <section>
     <div class="mainHeading">Projects</div>
     <div class="container">Please see below some of the projects that I have been involved in. 
-    <b>Please click the images for the deployed repo</b></div>
+    <b>Please click the images for the deployed application</b></div>
     </section>
 
    
