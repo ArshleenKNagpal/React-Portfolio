@@ -20,8 +20,8 @@ The following image shows the application's appearance and functionality:
 
 ![The screenshot includes an image of the application.](./public/images/screenshot.png)
 
-The URL of the Heroku application is: 
-<https://akn-react-portfolio.herokuapp.com/>
+The URL of the deployed application is: 
+<https://arshleenknagpal.github.io/React-Portfolio/>
 
 The URL of the GitHub repository is: 
 <https://github.com/ArshleenKNagpal/React-Portfolio>
